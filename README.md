@@ -3,16 +3,16 @@ Microcontroller like ATMEGA (AVR), PIC etc. GPIO pin extend with Shift Register 
 
 ---------------------------------------------------------------------------------------------
 
-##Parts List
+## Parts List
 ![Screenshort](parts_list.png "Parts List")
 
-##Circuit Diagram
+## Circuit Diagram
 ![Screenshort](circuit_diagram.png "Circuit Diagram")
 
-##Output pin byet code calculation chart
+## Output pin byet code calculation chart
 ![Screenshort](calculation_chart.png "Calculation Chart")
 
-##Codes are: 
+## Codes are: 
 ```
 
 int latchPin = 2;     // ArduinoPin-2 to 74HC595Pin-12 
@@ -187,4 +187,4 @@ void switchDo(){
 
 ```
 
-##NB: Connect 13 Pin of 595 to GND for active IC.
+## NB: Connect 13 Pin of 595 to GND for active IC.
